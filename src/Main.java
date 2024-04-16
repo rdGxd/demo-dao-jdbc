@@ -20,5 +20,11 @@ public class Main {
             System.out.println(s);
         }
 
+        System.out.println("\n=== TEST 3: seller findByAll ===");
+        List<Seller> all = sellerDao.findAll();
+
+        for (Seller s : all) {
+            System.out.println(s);
+        }
     }
 }
